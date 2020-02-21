@@ -11,7 +11,7 @@ class Calculator:
     def __init__(self, angle):
         self.angle = angle
 
-    def menu(self, option, x, y):
+    def menu(self, option, x, y=None):
         if option == 1:
             if y == None:
                 return "Value Error"
