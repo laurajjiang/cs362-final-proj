@@ -8,6 +8,12 @@
 import math
 
 class Calculator: 
+    def __init__(self, angle):
+        return
+
+    def menu(self, option):
+        return
+
     def multiply(self, x, y):
         return
 
@@ -20,15 +26,18 @@ class Calculator:
     def square(self, x):
         return
 
+    def inverse(self, x):
+        return
+
     def fact(self, x):
         return 
 
     def absValue(self, x):
         return 
 
-    def sin(self, x, angleType):
+    def sin(self, x):
         return 
 
-    def cos(self, x, angleType):
+    def cos(self, x):
         return 
 
